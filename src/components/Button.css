@@ -1,0 +1,10 @@
+.button {
+    /* Rectangle 2 */
+    width: 117px;
+    height: 38px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: lightcoral;
+
+}
