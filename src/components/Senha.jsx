@@ -2,9 +2,9 @@ import React from 'react';
 
 import './Senha.css'
 
-const Senha = () => {
+const Senha = ({ children }) => {
     return ( 
-        <p className="senha">01</p>
+        <p className="senha">{ children }</p>
      );
 }
  

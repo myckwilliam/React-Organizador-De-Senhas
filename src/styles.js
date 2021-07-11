@@ -18,4 +18,5 @@ export const ButtonTop = styled(ButtonBase)`
 
     ${props => props.color === "red" && css`background-color: red; color: white;` }
     ${props => props.color === "green" && css`background-color: #038F22; color: white;` }
+    ${props => props.color === "blue" && css`background-color: blue; color: white;` }
 `;
